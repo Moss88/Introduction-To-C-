@@ -1,0 +1,8 @@
+#include "intArray.h"
+int main() {
+	IntArray myArr;
+	myArr.append(5);
+	myArr.append(10);
+	myArr.append(12);
+	return 0;
+}

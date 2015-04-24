@@ -1,0 +1,5 @@
+apples $1.14
+oranges $7.32
+bananas $0.88
+
+Total: $9.34
