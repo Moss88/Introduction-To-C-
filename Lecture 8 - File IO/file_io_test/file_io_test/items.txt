@@ -1,3 +1,0 @@
-apples .57 2
-oranges 1.22 6
-bananas .22 4
