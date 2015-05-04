@@ -1,36 +1,5 @@
 #include <iostream>
 
-using namespace std;
-struct Node {
-    string data;
-    Node *next;
-};
-
-
-Node* addNode(Node *head, string data) {
-    Node* tmp = new Node;
-    tmp->data = data;
-    tmp->next = head;
-    return tmp;
-}
-
-
-void printNode(Node *head) {
-    if(head == nullptr)
-        return;
-    cout << head->data;
-    printNode(head->next);
-}
-
-
-
-void clearBoard(char board[10][10])
-{
-    for(int i = 0; i < 10; i++)
-        for(int j = 0; j < 10; j++)
-            board[i][j] = ' ';
-}
-
 void printBoard(char board[10][10])
 {
     for(int i = 0; i < 10; i++)
